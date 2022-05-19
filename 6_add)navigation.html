@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrtap Navigation 활용</title>
+    <link rel="stylesheet" href="css/bootstrap_my_lhs_220513.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- http://bootstrapk.com/components/#navbar -->
+    <!-- 반응형 고정폭 컨테이너를 위해 .container를 사용하시기 바랍니다. -->
+
+    <div class="container" style="padding-top:100px ;">
+      <!-- 콤포넌트 - 네비게이션 바 - 반전된 네비게이션 바 -->
+      <nav class="navbar navbar-inverse">
+        <!-- 뷰포트 전체폭까지 늘어나는 최대폭 콘테이너를 위해, container-fluid를 적용합니다 -->
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#nav_menu" aria-expanded="false">
+              <!-- 확장과 축소가 되는 버튼 영역은 button 태그로 마크업 하고, 확장되었을때는 aria-expanded='true' ,
+              축소되었을때는 aria-expanded='false' -->
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a href="#" class="navbar-brand">
+                bootstrap 활용
+              </a>
+            </div>
+              <div class="collapse navbar-collapse" id="nav_menu">
+                <ul class="nav navbar-nav">
+                  <li class="active">
+                    <a href="#">HTML</a>
+                  </li>
+                  <li>
+                    <a href="#">css</a>
+                  </li>
+                  <li>
+                  <a href="#">javascript</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    </div>
+
+</body>
+</html>
